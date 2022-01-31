@@ -282,3 +282,101 @@ color: var(--primary-color);
 }
 
 
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .hero-text h2 {
+    font-size: 15px;
+}
+
+}
+  
+@media screen and (max-width: 768px) {
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  
+.hero-text{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+  border: var(--primary-color) solid 4px;
+  width: 10%;
+  z-index: 40;
+  margin-top: 30%;
+  margin-left: 80%;
+  font-size: 10px;
+  width: 20%;
+  text-align: center;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-work {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  border-right: none;
+  border-bottom: var(--primary-color) solid 3px;
+}
+
+.bio h1{
+  border-right: none;
+  border-bottom: var(--primary-color) solid 3px;
+}
+
+.my-work h1{
+  border-right: none;
+  border-bottom: var(--primary-color) solid 3px;
+  align-self: center;
+  width: 100%;
+}
+
+.contact h1 {
+  border-right: none;
+  border-bottom: var(--primary-color) solid 3px;
+  align-self: center;
+  width: 100%;
+}
+
+.rb-text {
+  font-size: 10px;
+}
+
+
+
+}
